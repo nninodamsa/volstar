@@ -1,32 +1,31 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
+import iconSet from './selection.json'
+import IcomoonReact, {iconList} from 'icomoon-react'
+
+import "./styles.css"
+import { Link } from "gatsby"
+
+const Header = () => (
+  <header>
+    <div className="logo-header">
+      <Link to="/">
+        <img src="/img/logo-big.png" alt="Volstar" />
+      </Link>
+    </div>
+    <div className="menu">
+        
+        <a target="_blank"
+          href="https://www.facebook.com/volstarenergia/" 
         >
-          {siteTitle}
-        </Link>
-      </h1>
+          <IcomoonReact iconSet={iconSet} size={18} icon="facebook-logo" />
+        </a>
+        <a target="_blank"
+          href="https://www.linkedin.com/company/volstar/?viewAsMember=true"
+        >
+          <IcomoonReact iconSet={iconSet} size={18} icon="linkedin-logo" />
+        </a>
     </div>
   </header>
 )
