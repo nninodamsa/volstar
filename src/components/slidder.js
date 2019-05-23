@@ -19,7 +19,7 @@ const Slidder = () => {
       const Carousel = makeCarousel(CarouselUI);
 
     return (
-        <Carousel defaultWait={3000}>
+        <Carousel defaultWait={10000} maxTurns={300}>
             <Slide right>
                 <div>
                     <div className="title-slidder">Diagrama de Fuerza Radiobase Típica Gran Capacidad (Respaldo Acido/Plomo)</div>

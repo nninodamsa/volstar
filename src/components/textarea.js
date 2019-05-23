@@ -2,11 +2,11 @@ import React from "react"
 import "./styles.css"
 
 const Textarea = (props) => {
-  const { idinput, text, valor } = props;
+  const { idinput, text, handleInputChange, valor } = props;
   return (
     <div className="item">
-        <textarea className={idinput} placeholder={text}>
-            {valor}
+        <textarea name={idinput} placeholder={text} value={valor} onChange={handleInputChange}>
+            
         </textarea>
     </div>
   )

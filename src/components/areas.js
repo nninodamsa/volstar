@@ -2,7 +2,7 @@ import React from "react"
 import "./styles.css"
 
 import iconSet from './selection.json'
-import IcomoonReact, {iconList} from 'icomoon-react'
+import IcomoonReact from 'icomoon-react'
 import { Link } from "gatsby";
 
 const Areas = (props) => {
@@ -13,7 +13,7 @@ const Areas = (props) => {
       <div className="title color-dark">{ title } </div>
 
       <div className="icon-area color-dark">
-        <IcomoonReact iconSet={iconSet} size={60} icon={ icon } />
+        <IcomoonReact iconSet={iconSet} size={60} icon={ icon } color="#000" />
       </div>
 
       <div className="text color-dark">{text}</div>

@@ -2,10 +2,11 @@ import React from "react"
 import "./styles.css"
 
 const Input = (props) => {
-  const { idinput, text, valor } = props;
+  const { idinput, text, handleInputChange, valor } = props;
+  
   return (
     <div className="item">
-        <input className={idinput} placeholder={text} value={valor} />
+        <input name={idinput} placeholder={text} value={valor}  onChange={handleInputChange} />
     </div>
   )
 }

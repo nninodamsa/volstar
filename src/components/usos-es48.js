@@ -1,8 +1,8 @@
 import React from "react"
 import "./styles.css"
 import iconSet from './selection.json'
-import IcomoonReact, {iconList} from 'icomoon-react'
-
+import IcomoonReact from 'icomoon-react'
+ 
 const UsosEs48 = () => (
   <div className="usos-es48 container">
     <div className="item main">

@@ -20,8 +20,8 @@ personalizadas para la administración de energía eléctrica, diseñando e impl
     <div className="item aside">
       <div className="subtitle color-white">valores</div>
 
-      <p className="color-white">
-        <ul>
+      
+        <ul className="color-white">
           <li>Innovación</li>
           <li>Integridad</li>
           <li>Empatía</li>
@@ -30,7 +30,7 @@ personalizadas para la administración de energía eléctrica, diseñando e impl
           <li>Búsqueda de la Excelencia</li>
           <li>Desarrollo Humano</li>
         </ul>
-      </p>
+      
     </div>
   </div>
 )
