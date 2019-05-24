@@ -18,8 +18,8 @@ ejecutando. </p>
     <div className="item aside" style={{backgroundColor: "#7daf38"}}>
       <div className="subtitle color-dark">ventajas del producto</div>
 
-      <p className="color-dark">
-        <ul>
+      
+        <ul className="color-dark"> 
             <li>Detiene el robo de baterías por no contener componentes ni sustancias útiles para ningún otro uso, eliminando las afectaciones a los servicios de comunicaciones por blackouts de la Radiobase. </li>
             <li>Mínima contaminación en el ambiente.</li> 
             <li>Bajo costo de operación y de mantenimiento. </li>
@@ -27,7 +27,7 @@ ejecutando. </p>
             <li>Se comunica vía 485, USB, Ethernet. </li>
             <li>Medición independiente de consumo de energía para cada unidad que integra el sistema de comunicación que se alimenta. </li>
         </ul>
-      </p>
+      
     </div>
   </div>
 )

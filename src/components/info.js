@@ -5,9 +5,12 @@ const Info = () => (
   <div className="info container">
     <div className="item main">
         <table>
+            <thead>
             <tr>
                 <td colSpan="2">General</td>
             </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>Voltaje de operación </td>
                 <td>220 VAC</td>
@@ -36,11 +39,15 @@ const Info = () => (
                 <td>Protección</td>
                 <td>Sobre corriente</td>
             </tr>
+            </tbody>
         </table>
         <table>
+            <thead>
             <tr>
                 <td colSpan="2">Alarmas</td>
             </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>Operación</td>
                 <td>Contacto seco (NA/NC) 220V @ 1A Max</td>
@@ -61,21 +68,28 @@ const Info = () => (
                 <td>Programable</td>
                 <td>Contacto seco (NA) </td>
             </tr>
+            </tbody>
         </table>
         <table>
+            <thead>
             <tr>
                 <td colSpan="2">Entradas</td>
             </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>Tres entradas digitales programables </td>
                 <td>48 VCD</td>
             </tr>
+            </tbody>
         </table>
         <table>
-            <tbody>
+            <thead>
             <tr>
                 <td colSpan="2">Gabinete</td>
             </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>ES48-C1 </td>
                 <td>Gabinete de 19” x 2U x 9” </td>
@@ -99,8 +113,8 @@ const Info = () => (
     <div className="item aside">
       <div className="subtitle color-white">Ventajas sobre sistema tradicional </div>
 
-      <p className="color-white">
-        <ul>
+      
+        <ul className="color-white">
             <li>Detiene el robo de baterías por no contener componentes ni sustancias útiles para ningún otro uso, eliminando las afectaciones a los servicios de comunicaciones por blackouts de la Radiobase. </li>
             <li>Sistema escalable a los requerimientos de energía de cada sitio y de cada rack.</li> 
             <li>La alimentación individual a cada rack permite el mantenimiento modular tanto preventivo y correctivo.  </li>
@@ -109,7 +123,7 @@ const Info = () => (
             <li>Monitoreo y registro de historial individual de consumo en cada rack.  </li>
             <li>Reducción de riesgo de accidente por bajo peso y nulo riesgo de accidente por ácido. </li>
         </ul>
-      </p>
+      
     </div>
   </div>
 )

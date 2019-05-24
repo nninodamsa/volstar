@@ -12,7 +12,7 @@ const Slidder = () => {
             <div className="content-slidder">
                 {children}
                 <div className="arrow a-left" onClick={handleClick} data-position={position - 1}>{'<'}</div>
-                <div className="arrow a-right" right onClick={handleClick} data-position={position + 1}>{'>'}</div>
+                <div className="arrow a-right" onClick={handleClick} data-position={position + 1}>{'>'}</div>
             </div>
         </div>
       );

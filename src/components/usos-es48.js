@@ -12,51 +12,51 @@ suministra a los equipos y al módulo de almacenamiento en ion-litio</div>
 
     <div className="item aside">
       <div className="icon-area color-grey">
-        <IcomoonReact iconSet={iconSet} size={60} icon="signal-tower" />
+        <IcomoonReact iconSet={iconSet} size={60} icon="signal-tower" color="#86949e" />
       </div>
       <div className="subtitle color-grey">aplicaciones</div>
 
-      <p className="color-white">
-        <ul>
+      
+        <ul className="color-white">
             <li>Telecomunicaciones. </li>
             <li>Sistemas de energía renovables. </li>
             <li>Equipos de comunicación móvil.  </li>
             <li>Equipos de red.  </li>
         </ul>
-      </p>
+      
     </div>
 
     <div className="item aside">
       <div className="icon-area color-grey">
-        <IcomoonReact iconSet={iconSet} size={60} icon="router" />
+        <IcomoonReact iconSet={iconSet} size={60} icon="router" color="#86949e" />
       </div>
       <div className="subtitle color-grey">componentes</div>
 
-      <p className="color-white">
-        <ul>
+      
+        <ul className="color-white">
             <li>Pantalla alfanumérica (LCD). </li>
             <li>Botones de navegación. </li>
             <li>Puertos de comunicación.  </li>
             <li>Indicadores Luminosos frontales y posteriores.  </li>
         </ul>
-      </p>
+      
     </div>
 
     <div className="item aside">
       <div className="icon-area color-grey">
-        <IcomoonReact iconSet={iconSet} size={60} icon="settings" />
+        <IcomoonReact iconSet={iconSet} size={60} icon="settings" color="#86949e" />
       </div>
       <div className="subtitle color-grey">tareas</div>
 
-      <p className="color-white">
-        <ul>
+      
+        <ul className="color-white">
             <li>Control de carga, descarga y protección para el módulo de baterías de litio. </li>
             <li>Control de 3 salidas programables de forma independiente. </li>
             <li>Control de alimentación de entrada de 220 VCA </li>
             <li>Control de alarmas del sistema.</li> 
             <li>Comunicación vía puertos USB, 458, Bluetooth, y opcional Ethernet y PLC </li>
         </ul>
-      </p>
+      
     </div>
 
   </div>

@@ -7,7 +7,6 @@ import "./styles.css"
 
 const Contact = (props) => {
   let {sendEmail, handleInputChange, enabled, stateValues} = props
-  console.log(stateValues)
   return (
     <section className="contact container">
         

@@ -41,9 +41,9 @@ export default class IndexPage extends React.Component {
     axios.post('https://www.damsa.com.mx/WebSiteCore/WebApiEnvioDeCorreo/api/Correos', {
     		Id_Sistema: "SITIO_CONTACTO",
   			De: "noreply@damsa.com.mx",
-        Para: "contacto@volstar.mx",
-  			Copia: "contacto@volstar.mx",
-  			CopiaOculta: "contacto@volstar.mx",
+        Para: "nnino@damsa.com.mx",
+  			Copia: "nnino@damsa.com.mx",
+  			CopiaOculta: "nnino@damsa.com.mx",
   			Asunto: "Correo enviado desde el formulario de contacto",
   			Msg: message
 
@@ -80,8 +80,8 @@ export default class IndexPage extends React.Component {
     <About />
     <div className="areas container">    
         <Areas bg="#74a332" link="/sistema-es48" classorder="" title="" icon="tower" text="telecomunicaciones" />
-        <Areas bg="#7daf38" link="#" classorder="main" title="áreas de aplicación" icon="golf-cart" text="movilidad" />
-        <Areas bg="#8bc13f" link="#" classorder="" title="" icon="forklift" text="movilidad industrial" />
+        <Areas bg="#7daf38" link="/" classorder="main" title="áreas de aplicación" icon="golf-cart" text="movilidad" />
+        <Areas bg="#8bc13f" link="/" classorder="" title="" icon="forklift" text="movilidad industrial" />
     </div>
     <Contact sendEmail={this.sendEmail} handleInputChange={this.handleInputChange} stateValues={state} enabled={enabled} />
     <Mision/>
