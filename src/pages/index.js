@@ -41,9 +41,9 @@ export default class IndexPage extends React.Component {
     axios.post('https://www.damsa.com.mx/WebSiteCore/WebApiEnvioDeCorreo/api/Correos', {
     		Id_Sistema: "SITIO_CONTACTO",
   			De: "noreply@damsa.com.mx",
-        Para: "nnino@damsa.com.mx",
-  			Copia: "nnino@damsa.com.mx",
-  			CopiaOculta: "nnino@damsa.com.mx",
+        Para: "contacto@volstar.mx",
+  			Copia: "contacto@volstar.mx",
+  			CopiaOculta: "contacto@volstar.mx",
   			Asunto: "Correo enviado desde el formulario de contacto",
   			Msg: message
 
